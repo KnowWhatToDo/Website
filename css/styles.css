@@ -1217,6 +1217,10 @@ ul#countdown li .label {
   padding-bottom: 0px;
 }
 */
+
+.padding_left_15 {
+  padding-left: 15px;
+}
 .about_text {
   padding-top: 1em;
   width: 100%;
@@ -1234,6 +1238,14 @@ ul#countdown li .label {
   padding-bottom: 1em;
 }
 
+.insta{
+  height: 20px;
+  width: 20px;
+}
+
+.f2{
+  padding-top: 5em;
+}
 .footer_link {
   color: #fff;
   text-decoration: none;
@@ -1684,7 +1696,9 @@ a {
   .Services-Title{
     font-size: 5em;
   }
-
+  .f2{
+    padding-top: 0em;
+  }
 
 }
 
@@ -1720,6 +1734,9 @@ a {
   .waveDiv{
     height: 120vh;
   }
+  .f2{
+    padding-top: 0em;
+  }
 }
 @media screen and (max-width: 600px) {
   .mentor-section{
@@ -1748,6 +1765,9 @@ a {
 
   .waveDiv{
     height: 160vh;
+  }
+  .f2{
+    padding-top: 0em;
   }
 }
 
@@ -1782,6 +1802,9 @@ a {
   .waveDiv{
     height: 140vh;
   }
+  .f2{
+    padding-top: 0em;
+  }
 }
 @media screen and (max-width: 1350px) and (min-width: 800px) {
   .mentee-section{
@@ -1805,6 +1828,9 @@ a {
   }
   .mentee-image{
     display: block;
+  }
+  .f2{
+    padding-top: 0em;
   }
 }
 @media screen and (max-width: 600px) {
@@ -1840,5 +1866,8 @@ a {
   }
   .mentee-image{
     display: none;
+  }
+  .f2{
+    padding-top: 0em;
   }
 }
