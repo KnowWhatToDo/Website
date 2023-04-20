@@ -87,7 +87,15 @@ function numberTransition(id, endPoint, transitionDuration, transitionEase){
 $('.navTrigger').click(function () {
   $(this).toggleClass('active');
   console.log("Clicked menu");
+  $(".text-wrapper").toggleClass('active');
   $("#mainListDiv").toggleClass("show_list");
   $("#mainListDiv").fadeIn();
 
 });
+
+
+
+//timer section
+
+
+
