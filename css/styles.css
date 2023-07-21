@@ -1094,6 +1094,22 @@ ul#countdown li .label {
   transition: 2s all ease;
 }
 
+/* Testimonials Carousel */
+
+.carousel-indicators li { visibility: hidden; }
+
+#testimonials-carousel{
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
+
+.item{
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
 /* Contact Us */
@@ -1102,6 +1118,7 @@ ul#countdown li .label {
   float: left;
   background: white;
   padding-top: 10vh;
+  margin-top: 5vh;
 /* GRADIENT ISSUE */
 }
 .contact-title{
@@ -1217,10 +1234,6 @@ ul#countdown li .label {
   padding-bottom: 0px;
 }
 */
-
-.padding_left_15 {
-  padding-left: 15px;
-}
 .about_text {
   padding-top: 1em;
   width: 100%;
@@ -1236,10 +1249,6 @@ ul#countdown li .label {
   color: #fffcf4;
   padding-top: 18px;
   padding-bottom: 1em;
-}
-
-.f2{
-  padding-top: 5em;
 }
 
 .footer_link {
@@ -1692,9 +1701,7 @@ a {
   .Services-Title{
     font-size: 5em;
   }
-  .f2{
-    padding-top: 0em;
-  }
+
 
 }
 
@@ -1730,9 +1737,6 @@ a {
   .waveDiv{
     height: 120vh;
   }
-  .f2{
-    padding-top: 0em;
-  }
 }
 @media screen and (max-width: 600px) {
   .mentor-section{
@@ -1761,9 +1765,6 @@ a {
 
   .waveDiv{
     height: 160vh;
-  }
-  .f2{
-    padding-top: 0em;
   }
 }
 
@@ -1798,9 +1799,6 @@ a {
   .waveDiv{
     height: 140vh;
   }
-  .f2{
-    padding-top: 0em;
-  }
 }
 @media screen and (max-width: 1350px) and (min-width: 800px) {
   .mentee-section{
@@ -1824,9 +1822,6 @@ a {
   }
   .mentee-image{
     display: block;
-  }
-  .f2{
-    padding-top: 0em;
   }
 }
 @media screen and (max-width: 600px) {
@@ -1862,8 +1857,5 @@ a {
   }
   .mentee-image{
     display: none;
-  }
-  .f2{
-    padding-top: 0em;
   }
 }
